@@ -7,7 +7,6 @@ const GlobalStyle = createGlobalStyle`
     height: 100vh;
   }
   body {
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     margin: 0;
